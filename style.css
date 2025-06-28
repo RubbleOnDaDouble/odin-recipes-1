@@ -1,0 +1,73 @@
+/* reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+.title {
+    background-color: #FFFCFB;
+    /*height: 450px;
+    width: 700px; */
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.banner {
+    margin: 40px 0;
+    height: auto;
+    width: 700px;
+}
+
+.content {
+    background-color: red;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.title-text {
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.description,
+.list {
+    margin: 40px 0;
+    color: white;
+    font-size: 40px;
+}
+
+.sub-title {
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+li {
+    padding: 10px 0;
+}
+
+.home {
+    display: inline-block;
+    height: auto;
+    width: 400px;
+    font-size: 20px;
+    background-color: pink;
+    border: 2px solid black;
+}
