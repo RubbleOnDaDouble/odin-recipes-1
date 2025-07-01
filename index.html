@@ -3,15 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Project: Odin Recipes</title>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-
-    <ul>
-        <li><a href="recipes/spaghetti.html" target="_blank" rel="noopener noreferrer">Spaghetti</a></li>
-        <li><a href="recipes/burger-patty.html" target="_blank" rel="noopener noreferrer">Burger Patties</a></li>
-        <li><a href="recipes/mashed-potato.html" target="_blank" rel="noopener noreferrer">Mashed Potatoes</a></li>
-    </ul>
+    <div class="container">
+        <div class="title main">
+            <h1 class="title-text">Odin Recipes</h1>
+        </div>
+        <div class="nav">    
+            <ul class="nav-list">
+                <li>
+                    <a href="recipes/spaghetti.html" target="_blank" rel="noopener noreferrer">
+                        <p class="nav-text">Spaghetti</p>
+                        <img class="recipe" src="https://www.allrecipes.com/thmb/IqGE_n_mpjKnUzbWLV3nA_PbK70=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/667748_Spaghetti-Sauce-with-Ground-Beef_158140_-Photo-by-Sherri-b9bcc8ba2df44574ba8b4337586dd4aa.jpg" alt="Delicous spaghetti"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="recipes/burger-patty.html" target="_blank" rel="noopener noreferrer">
+                        <p class="nav-text">Burger Patties</p>
+                        <img class="recipe" src="https://www.allrecipes.com/thmb/O4vD00E6WVae9r6W2tTdN4kYYWs=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/6902876-11c33dbadca34068bf06a8477c205bd6.jpg" alt="Juicy Patties">
+                    </a>
+                </li>
+                <li>
+                    <a href="recipes/mashed-potato.html" target="_blank" rel="noopener noreferrer">
+                        <p class="nav-text">Mashed Potatoes</p>
+                        <img class="recipe" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2022%2F04%2F18%2F24771-basic-mashed-potatoes-mfs318.jpg&q=60&c=sc&poi=auto&orient=true&h=512" alt="Smooth and creamy mashed potato"/>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>

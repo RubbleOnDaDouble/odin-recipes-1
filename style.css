@@ -10,16 +10,47 @@
     padding: 0;
 }
 
-.container {
+/* General Style */
+.title {
+    background-color: #FFFCFB;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Home page style */
+.title.main {
+    background-color: #ba4949;
+    color: white;
     padding: 20px;
 }
 
-.title {
-    background-color: #FFFCFB;
-    /*height: 450px;
-    width: 700px; */
-    margin: 0 auto;
+.nav {
+    background-color: #FEFBC7;
+    font-family: 'Arial Rounded',Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700px;
+}
+
+.nav-list{
     text-align: center;
+}
+.nav-list li{
+    display: inline-block;
+    padding: 20px 30px;
+}
+.nav-text {
+    text-align: center;
+}
+
+.recipe {
+    padding-top: 10px;
+    width: 500px;
+    height: 500px;
+}
+
+/* Recipes page style*/
+.container {
+    padding: 20px;
 }
 
 
